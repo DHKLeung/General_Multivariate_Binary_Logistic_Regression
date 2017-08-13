@@ -13,15 +13,19 @@ Default setting of Learning Rate(alpha) and Epoch are 0.1 and 10000 respectively
 
 Example:
 
-  Student A: Chinese 100, English 100, Maths 60, Pass 1
-  Student B: Chinese 60, English 60, Maths 60, Pass 1
-  Student C: Chinese 100, English 0, Maths 0, Fail 0
+    Student A: Chinese 100, English 100, Maths 60, Pass 1
+
+    Student B: Chinese 60, English 60, Maths 60, Pass 1
+
+    Student C: Chinese 100, English 0, Maths 0, Fail 0
 
 Then the file should be written like this:
 
-  100,100,60,1
-  60,60,60,1
-  100,0,0,0
+    100,100,60,1
+
+    60,60,60,1
+
+    100,0,0,0
 
 in this case the first three columns represent three features,
 
